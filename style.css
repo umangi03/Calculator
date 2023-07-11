@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 480px;
+    padding: 30px 25px;
+    margin: 100px auto;
+    background-color:aliceblue;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+h1{
+    color: rgb(145, 47, 236);
+    margin: 0 0 15px 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+input{
+    margin: 8px 0;
+    background-color: rgb(250, 245, 255);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-align: right;
+}
+
+#uinput{
+    color: rgb(147, 87, 204);
+    height: 28px;
+    font-size: 18px;
+}
+
+#output{
+    height: 35px;
+    color: rgb(64, 23, 102);
+    font-size: 28px;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    column-gap: 12px;
+    margin: 8px 0;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.button{
+    padding: 12px 3px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#row1 button{
+    padding: 8px 3px;
+    margin-top: 5px;
+}
+
+.operator{
+    background-color: rgb(165, 105, 208);
+    color: rgb(240, 226, 254);
+    border: 0.8px solid rgb(240, 226, 254);
+}
+
+.operator:hover{
+    background-color: rgb(198, 134, 243);
+}
+
+.number{
+    background-color: rgb(220, 176, 251);
+    color: rgb(77, 7, 128);
+    border: 0.8px solid rgb(77, 7, 128);
+}
+.number:hover{
+    background-color: rgb(231, 208, 248);
+}
+.enter{
+    grid-column: 4/span 2;
+    background-color: rgb(138, 60, 195);
+    color: rgb(250, 245, 255);
+    border: 0.8px solid rgb(250, 245, 255);
+}
+.enter:hover{
+    background-color: rgb(163, 70, 230);
+}
